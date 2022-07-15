@@ -1,0 +1,49 @@
+.profile {
+  margin-top: 5rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    label {
+      font-size: 2rem;
+    }
+
+    input {
+      font-family: inherit;
+      font-size: 2rem;
+      border-radius: 5px;
+      padding: 0.2rem 0.5rem;
+
+      &:focus {
+        background-color: rgb(227, 253, 200);
+      }
+    }
+
+    button {
+      margin-top: 2rem;
+      cursor: pointer;
+      font-family: inherit;
+      border-radius: 5px;
+      padding: 0.5rem 0.5rem;
+      font-size: 1.7rem;
+      background: none;
+      transition: background-color 0.2s;
+      transition: transform 0.1s;
+
+      &:hover {
+        background-color: #b1ff43;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 64.5%;
+  font-family: sans-serif;
+  color: #242424;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: rgb(255, 82, 82);
+}
+
+.success-message {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #67b100;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.not-found {
+  align-items: center;
+  height: 30rem;
+}
